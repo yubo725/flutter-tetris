@@ -137,6 +137,8 @@ class InfoPanelState extends State<InfoPanel> {
         if (isGameOver) {
           // 重新开始游戏
           setState(() {
+            totalScore = 0;
+            scoreStr = '0分';
             isPause = false;
             isGameOver = false;
             btnText = '暂停';
