@@ -1,8 +1,10 @@
 # flutter_tetris
 
-a flutter tetris game.
+基于Flutter的俄罗斯方块小游戏，支持Android与iOS。
 
-## Getting Started
+# 玩法
+底部三个按钮分别控制方块的左右移动和变形
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+在游戏区域从上至下滑动屏幕可让方块迅速落下
+
+# Android扫码下载体验

@@ -65,9 +65,6 @@ class GameViewState extends State<GameView> {
                 if (speedY > 1500) {
                   // 向下滑动屏幕，让shape马上落下
                   Global.eventBus.fire(new StatusEvent(type: Status.shapeDieNow));
-                } else if (speedY < -1500) {
-                  // 向上滑动屏幕，让shape变形
-
                 }
               },
             ),
