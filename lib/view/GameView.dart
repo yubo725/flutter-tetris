@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tetris/view/Shape.dart';
 import 'package:flutter_tetris/view/PlayPanel.dart';
 import 'package:flutter_tetris/view/InfoPanel.dart';
 import 'package:flutter_tetris/constants/Constants.dart';
 import 'package:flutter_tetris/constants/Global.dart';
 import 'package:flutter_tetris/event/StatusEvent.dart';
 import 'dart:async';
-import 'dart:math' as math;
 
 class GameView extends StatefulWidget {
   @override
